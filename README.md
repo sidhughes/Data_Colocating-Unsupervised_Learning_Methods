@@ -27,7 +27,6 @@ drive.mount('/content/drive')
 
 ## Material to install/download
 
-To streamline our data fetching and processing, we’ll first load the essential functions. These functions are identical to what we have for the data_fetching notebook in week 3. These functions essentially help you get metadata for the 2 satellites you care about.
 
 ### These are the packages we need to install to complete this practical:
 
