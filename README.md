@@ -8,7 +8,7 @@ The main tasks we aim to complete in this practical are:
 
 ## Set up 
 
-Here we introduce a series of setting up tools including Google Colab and Google Drive that are needed before undertaking the tasks.
+Here we are introduced to a series of setting up tools including Google Colab and Google Drive that are needed before undertaking the tasks.
 
 ### Google Colaboratory
 
