@@ -1,15 +1,10 @@
 # GEOL0069 - Week 4 Practical 
 ## Data Colocating and Unsupervised Learning Methods
 
-This section marks our journey into another significant domain of machine learning and AI: unsupervised learning. Rather than delving deep into theoretical intricacies, our focus here will be on offering a practical guide. We aim to equip you with a clear understanding and effective tools for employing unsupervised learning methods in real-world (EO) scenarios.
-
-It’s important to note that, while unsupervised learning encompasses a broad range of applications, our discussion will predominantly revolve around classification tasks. This is because unsupervised learning techniques are exceptionally adept at identifying patterns and categorising data when the classifications are not explicitly labeled. By exploring these techniques, you’ll gain insights into how to discern structure and relationships within your datasets, even in the absence of predefined categories or labels.
-
 The main tasks we aim to complete in this practical are:
 
-Discrimination of Sea ice and lead based on image classification based on Sentinel-2 optical data.
-
-Discrimination of Sea ice and lead based on altimetry data classification based on Sentinel-3 altimetry data.
+- Discrimination of Sea ice and lead based on image classification based on Sentinel-2 optical data.
+- Discrimination of Sea ice and lead based on altimetry data classification based on Sentinel-3 altimetry data.
 
 ## Set up 
 
