@@ -1,15 +1,25 @@
-# Data_Colocating-Unsupervised_Learning_Methods
-GEOL0069 - Week 4 Pactical
+# GEOL0069 - Week 4 Practical 
+## Data Colocating and Unsupervised Learning Methods
 
-## 1. Set up 
+This section marks our journey into another significant domain of machine learning and AI: unsupervised learning. Rather than delving deep into theoretical intricacies, our focus here will be on offering a practical guide. We aim to equip you with a clear understanding and effective tools for employing unsupervised learning methods in real-world (EO) scenarios.
+
+It’s important to note that, while unsupervised learning encompasses a broad range of applications, our discussion will predominantly revolve around classification tasks. This is because unsupervised learning techniques are exceptionally adept at identifying patterns and categorising data when the classifications are not explicitly labeled. By exploring these techniques, you’ll gain insights into how to discern structure and relationships within your datasets, even in the absence of predefined categories or labels.
+
+The main tasks we aim to complete in this practical are:
+
+Discrimination of Sea ice and lead based on image classification based on Sentinel-2 optical data.
+
+Discrimination of Sea ice and lead based on altimetry data classification based on Sentinel-3 altimetry data.
+
+## Set up 
 
 Here we introduce a series of setting up tools including Google Colab and Google Drive that are needed before undertaking the tasks.
 
-## Google Colaboratory
+### Google Colaboratory
 
-Google Colaboratory, is a cloud-based service provided by Google that allows users to write, execute, and share Python code through a web browser. It offers free access to a machine equipped with a GPU, making it a popular choice for machine learning and data science projects. This is an user-freindly way to test, excecute machine learning tasks, without any environment set-up on your device. Below are the steps to get started with Google Colab:
+Google Colaboratory, is a cloud-based service provided by Google that allows users to write, execute, and share Python code through a web browser. It offers free access to a machine equipped with a GPU, making it a popular choice for machine learning and data science projects. This is an user-freindly way to test, excecute machine learning tasks, without any environment set-up on your device. 
 
-## Google Drive
+### Google Drive
 
 Google Drive is a cloud-based storage service provided by google which alllows users to store, organise,share and access files from any device. 
 
@@ -24,7 +34,7 @@ drive.mount('/content/drive')
 
 To streamline our data fetching and processing, we’ll first load the essential functions. These functions are identical to what we have for the data_fetching notebook in week 3. These functions essentially help you get metadata for the 2 satellites you care about.
 
-### These are the packages we need to download to complete this practical:
+### These are the packages we need to install to complete this practical:
 
    ```sh
 !pip install rasterio
@@ -41,7 +51,9 @@ To streamline our data fetching and processing, we’ll first load the essential
 
 
 
-## 2. Introduction to Unsupervised Learning Methods {cite}`bishop2006pattern`
+# Introduction to Unsupervised Learning Methods 
+{cite}`bishop2006pattern`
+
 
 ## Introduction to K-means Clustering
 
@@ -70,7 +82,8 @@ The assignment and update steps are repeated iteratively until the centroids no 
 - **Efficiency**: K-means is computationally efficient.
 - **Ease of interpretation**: The results of k-means clustering are easy to understand and interpret.
 
-## Gaussian Mixture Models (GMM) {cite}`bishop2006pattern`
+## Gaussian Mixture Models (GMM) 
+{cite}`bishop2006pattern`
 
 ### Introduction to Gaussian Mixture Models
 
@@ -115,4 +128,5 @@ Project Link: [Data_Colocating-Unsupervised_Learning_Methods](https://github.com
 
 
 # Acknowledgments
-- This project represents 'GEOL0069 - week 4 practical' for 'AI for Earth Observation' module, taught by the UCL Earth Sciences Department.  
+- This project represents 'GEOL0069 - week 4 practical' for 'AI for Earth Observation' module, taught by the UCL Earth Sciences Department.
+- Module overseer: Dr Michel Tsamados - m.tsamados@ucl.ac.uk 
